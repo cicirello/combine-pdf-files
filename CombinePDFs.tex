@@ -1,0 +1,17 @@
+\documentclass[11pt,letterpaper]{article}
+
+% The pdfpages package is what we'll use.
+\usepackage[final]{pdfpages}
+
+\begin{document}
+
+% A line like the following for each pdf file you want to include
+% in the order you want to include them.
+\includepdf[pages=-]{file1.pdf}
+\includepdf[pages=-]{file2.pdf}
+
+% If you only want part of a pdf, just specify page range
+% like in this example that only uses pages 3 to 7 from file3.pdf.
+\includepdf[pages=3-7]{file3.pdf}
+
+\end{document}
