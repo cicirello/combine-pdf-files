@@ -9,3 +9,7 @@ Use pdflatex to combine multiple pdf files with the following steps:
 4. Run `pdflatex CombinePDFs.tex` at the command line, which will produce a file named `CombinePDFs.pdf`.
 5. You can then rename the pdf file, or alternatively, you can name the `tex` file as
   desired before you begin.
+
+## Blog Post Explaining Usage
+
+> [Combine Multiple PDF Files Into One Using pdfLaTeX](https://dev.to/cicirello/combine-multiple-pdf-files-into-one-using-pdflatex-3ljb), posted on DEV on September 14, 2022.
